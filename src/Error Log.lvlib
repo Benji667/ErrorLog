@@ -11,6 +11,7 @@
 </Property>
 	<Item Name="Error Logger" Type="Folder">
 		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
+		<Item Name="Logger.vi" Type="VI" URL="../Logger/Logger.vi"/>
 	</Item>
 	<Item Name="Handler" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
