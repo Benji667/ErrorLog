@@ -29,17 +29,7 @@
 		<Item Name="Record.lvclass" Type="LVClass" URL="../Record/Record.lvclass"/>
 		<Item Name="Record.Error.lvclass" Type="LVClass" URL="../Record.Error/Record.Error.lvclass"/>
 	</Item>
-	<Item Name="Serializer" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Serializer Factory.vi" Type="VI" URL="../Support/Serializer Factory.vi"/>
-		<Item Name="Serializer.lvclass" Type="LVClass" URL="../Serializer/Serializer.lvclass"/>
-		<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="../Serializer.PlainText/Serializer.PlainText.lvclass"/>
-		<Item Name="Serializer.PlainText.INI.lvclass" Type="LVClass" URL="../Serializer.PlainText.INI/Serializer.PlainText.INI.lvclass"/>
-		<Item Name="Serializer.XML.lvclass" Type="LVClass" URL="../Serializer.XML/Serializer.XML.lvclass"/>
-		<Item Name="Serializer.JSON.lvclass" Type="LVClass" URL="../Serializer.JSON/Serializer.JSON.lvclass"/>
-	</Item>
 	<Item Name="Type Defs" Type="Folder">
-		<Item Name="Display Format.ctl" Type="VI" URL="../Type Defs/Display Format.ctl"/>
 		<Item Name="Level.ctl" Type="VI" URL="../Type Defs/Level.ctl"/>
 	</Item>
 </Library>
