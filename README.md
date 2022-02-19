@@ -16,11 +16,11 @@ The Error Log library takes a modular approach and offers several categories of 
 
 Not all log messages are created equal. Depending of the importance of the log message, developer define a Level to his Log messages.
 
-- *DEBUG*: Detailed information, typically of interest only when diagnosing problems.
-- *INFO*: Confirmation that things are working as expected.
-- *WARNING*: An indication that something unexpected happened. The application is still working as expected.
-- *ERROR*: Due to a more serious problem, the application has not been able to perform some tasks.
-- *CRITICAL*: A serious error, indicating that the application itself may be unable to continue running.
+- *DEBUG* : Detailed information, typically of interest only when diagnosing problems.
+- *INFO* : Confirmation that things are working as expected.
+- *WARNING* : An indication that something unexpected happened. The application is still working as expected.
+- *ERROR* : Due to a more serious problem, the application has not been able to perform some tasks.
+- *CRITICAL* : A serious error, indicating that the application itself may be unable to continue running.
 
 When you set a logging level to an Handler, you’re telling the library you want to handle all events from that level on up. If you set the log level to INFO, it will include INFO, WARNING, ERROR, and CRITICAL messages. DEBUG messages will not be included here.
 
