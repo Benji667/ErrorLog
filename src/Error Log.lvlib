@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
 	<Property Name="NI.Lib.Description" Type="Str">A set of classes to provide comprehensive error logging functionality.</Property>
-	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str">/&lt;helpdir&gt;/BenjaminR/Error Log/Error Log Library Help.html</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!):!!!*Q(C=\&gt;4"&lt;?-Q%)8BFW!0O&lt;K$Q#V-#W\",5Q,PO&lt;I&amp;FY,&lt;M%6#*A7X)*&lt;5(\2!]?\B_C3"2)A5KD9D_,Q-U6)'M?,^%@TWD&amp;^?N!`&gt;\N&gt;JLHDK4OG$O@&lt;Z;_P08\[&gt;XTXLY[@\`-`^.^+@=S`ZF`J8THU?`Q?0`NY7^XE`XWP0WFZ%&gt;'+:FL31MO5=Z%8?:%8?:%8O=F.&lt;H+4G^TE3:\E3:\E3:\E12\E12\E12\EYS18O=B&amp;$KG9P*CI+&amp;I5+'['IO*3?!J0Y3E]@&amp;8B+4S&amp;J`!5(GZ2Y3E]B;@Q&amp;"['K@!5HM*4?!I0J9;EREG/J`"18M:D0-:D0-&lt;$F$)?!T#4G=+G#!S:4P0"?)T(?0AIYT%?YT%?Y[&amp;&lt;RG-]RG-]RM/1M3I?GO5ERU-:*:\%EXA34_+BN"*0YEE]C3@R-*U34_**%-G%38%)3A9F.S2@%E`CY:]34_**0)EH]&gt;!VHF#/F6EUSUG/*`!%HM!4?!)0*22Y!E`A#4S"B\)+0)%H]!3?Q-.5#DS"*`!%E'"3JF&gt;1,"A9X"1%A9?`M6NC0#5039R4[MWLXJ4KT;&lt;?2/L.I8\I[I?J@EDKR6=PKHKRV)OA`H&amp;KN"KDHE1^?,F26[Y8WJFWIBVJ"^K?NK.N;:NF["@@?,V?&gt;&lt;F=&gt;$[@&gt;4K&gt;&gt;$Q?&gt;4A=N.`PN&gt;PNN.VON&gt;FM\K_"6]\\#_%\P*?_B?&amp;:D`6:IX@KAP;]!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -10,8 +10,10 @@
 
 </Property>
 	<Item Name="Error Logger" Type="Folder">
-		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Logger.vi" Type="VI" URL="../Logger/Logger.vi"/>
+		<Item Name="Logger Property Node.vi" Type="VI" URL="../Logger/Logger Property Node.vi"/>
+		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 	</Item>
 	<Item Name="Handler" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -24,6 +26,7 @@
 			<Item Name="Handler.UserEvent.Console.lvclass" Type="LVClass" URL="../Handler.UserEvent.Console/Handler.UserEvent.Console.lvclass"/>
 		</Item>
 		<Item Name="Handler.lvclass" Type="LVClass" URL="../Handler/Handler.lvclass"/>
+		<Item Name="Handler Property Node.vi" Type="VI" URL="../Handler/Handler Property Node.vi"/>
 	</Item>
 	<Item Name="Record" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
