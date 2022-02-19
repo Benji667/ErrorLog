@@ -10,8 +10,10 @@
 
 </Property>
 	<Item Name="Error Logger" Type="Folder">
-		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Logger.vi" Type="VI" URL="../Logger/Logger.vi"/>
+		<Item Name="Logger Property Node.vi" Type="VI" URL="../Logger Property Node.vi"/>
+		<Item Name="Logger.lvclass" Type="LVClass" URL="../Logger/Logger.lvclass"/>
 	</Item>
 	<Item Name="Handler" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
