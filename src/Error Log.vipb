@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-14 22:01:05" Modified_Date="2022-02-19 11:25:16" Creator="Neo" Comments="" ID="0457d0734e2236cbdf3d840db5b65f4b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-14 22:01:05" Modified_Date="2022-02-19 11:53:51" Creator="Neo" Comments="" ID="b4fa4af565c83a0c32a9cb7f66c94558">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_Error_Log</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -569,7 +569,7 @@ When you set a logging level to an Handler, you’re telling the library you want 
         <Path>..\Handlers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9868579BE8063CB049367CFE1EAF37F0</GUID>
+      <GUID>81D80C9138F313944AABA7F603F613DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -730,7 +730,7 @@ When you set a logging level to an Handler, you’re telling the library you want 
         <Path>Logger\Log Critical(by Ref).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C2214728B56455B844A09CFE5660652</GUID>
+      <GUID>ACC53B3AD4C97073C863DC08F318FB60</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -821,7 +821,7 @@ When you set a logging level to an Handler, you’re telling the library you want 
         <Path>Handler\Handler Property Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1607540FF5CB09925133BB4B0CF5528E</GUID>
+      <GUID>3F4C9752DBBC2FBBC9C67661675B614B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
