@@ -26,6 +26,7 @@
 			<Item Name="Handler.UserEvent.Console.lvclass" Type="LVClass" URL="../Handler.UserEvent.Console/Handler.UserEvent.Console.lvclass"/>
 		</Item>
 		<Item Name="Handler.lvclass" Type="LVClass" URL="../Handler/Handler.lvclass"/>
+		<Item Name="Handler Property Node.vi" Type="VI" URL="../Handler/Handler Property Node.vi"/>
 	</Item>
 	<Item Name="Record" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
